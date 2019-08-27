@@ -34,8 +34,8 @@
                             <li><a href="../views/Git.html">GIT</a></li>
                             <li><a href="../views/VSCode.html">VSCode</a></li>
                             <li><a href="../views/AgileScrum.html">Agile/Scrum</a></li>
-                            <li class="active"><a href="HtmlTags.html">HTML tags</a></li>
-                            <li><a href="../views/CssSelektori.html">CSS Selektori</a></li>
+                            <li><a href="../views/HtmlTags.html">HTML tags</a></li>
+                            <li class="active"><a href="CssSelektori.html">CSS Selektori</a></li>
                         </ul>
                     </li>
                     <li><a href="../views/PlainJavaScript.html">Plain JavaScript</a></li>
@@ -50,37 +50,26 @@
     <div id="wrap">
         <div id="main">
             <div class="container theme-showcase lead text" role="main">
-                <h1 class="cover-heading text-center">HTML elementi</h1>
+                <h1 class="cover-heading text-center">Šie ir daži svarīgākie Selektori:</h1>
 <p>
-    Šodien mēs iemācījāmies kas ir HTML elementi un kā ar tiem darboties.<br>
-    Mēs jau esam paspējuši apskatīt tādus HTML elementus, kā: <br>
-    <ul>
-        <li>Konteiners "< div >" </li>
-        <li>Virsraksts "< h1 >, < h2 >,< h6 >"</li>
-        <li>Rindkopa "< p >"</li>
-        <li>Atribūts "< a >"</li>
-        <li>Rindas atdalītājs "< br >"</li>
-    </ul>
-    Tagad apkskatīsim vēl šos elementus:
-    <ol>
-        <li>Nenumurēts saraksts "< ul >"</li>
-        <li>Saraksta objekts "< li >"</li>
-        <li>Numurēts saraksts "< ol >"</li>
-        <li>Attēls "< img >"</li>
-        <img src="../images/Start(IT)Logo.png" alt="Start(IT)" width="104">
-        <li>Poga "< button >"</li>
-        <button>Uzspied</button>
-        <li><b> Teknraksts </b>"< b >"</li>
-    </ol>
-        Vairāk informācijas par visiem HTML elementiem mēs varam atrast 
-        <a href="https://www.w3schools.com/html/default.asp"> w3schools </a> mājaslapā.
-    </p>
-       <p>
-            Sed mauris odio, sodales at lacus et, consequat efficitur enim. In volutpat molestie sem at faucibus. Fusce elementum eros vel magna consectetur, non interdum nunc auctor. Cras in lacus non metus molestie rhoncus a nec felis. Praesent ornare magna ac porttitor tempor. Aenean sed feugiat nulla, non euismod ante. Maecenas quis sagittis enim, in auctor nisl. Etiam et efficitur eros.
-</p><p>
-            Donec lorem massa, accumsan in diam vel, facilisis rhoncus est. Cras imperdiet euismod nisl, vel maximus eros tristique ut. Fusce sapien mauris, viverra eu elit a, ullamcorper blandit libero. Donec eget est eu leo congue sollicitudin. Praesent a mollis enim. Pellentesque sit amet metus ut est hendrerit molestie. Praesent in cursus nisi, eget dapibus urna. Mauris cursus orci eu quam imperdiet mollis. Proin vitae ultricies eros. Proin sit amet purus erat. Donec feugiat ligula id sem ullamcorper, sagittis aliquet nulla convallis. Vivamus nec lobortis orci, a hendrerit mauris.
-       </p> 
     
+    <li>".class" - Izmantojottiek piekļūts klasei, kas ir pieejama lapā. </li>
+    <li>".class1.class2" - Piekļūst objektam lapā, kuram ir gan "classl", gan "class2", kā klase.</li>
+    <li>".classl .class2" - Piekļūst objektiem "class2", kas ir elementa ar klasi "classl" pēcnācēji.</li>
+    <li>"#id" - Izmantojot "#" tiek piekļūts elementam ar norādīto ID. kas ir pieejama lapā.</li>
+    <li>"*" - Izmantojot var piekļūt visiem lapas elementiem</li>
+    <li>"p" - Piekļūst visiem "< p >" elementiem, kas ir lapā</li>
+    <li>"div,p" - Piekļūst visiem "< div >" elementiem un "< p >" elementiem, kas ir lapā</li>
+    <li>"div p" - Piekļūst visiem "< p >" elementiem kas ir iekš "< div >" elementa, kas ir lapā</li>
+    <li>"div>p" - Piekļūst visiem "< p >" elementiem kuriem tiešais vecāka elements ir "< div >"</li>
+    <li>"div+p" - Piekļūst visiem "< p >" elementiem kuri ir uzreiz aiz "< div >" elementa</li>
+    <li>":not(p)" - Atlasa visus elementus, kas nav "< p >"</li>
+    <li>"p:first-child" - Atlasa visus "< p >" elementus, kas ir pirmie pēcnācēji vecāku elementam</li>
+    <li>"p:nth-child(2)" - Atasa visus "< p >" elementus, kas ir otrie pēcnācēji vecāku elementam</li>
+    <li>"a:hover" - Atasa saiti kad ar peli uzbruac uz tās</li>
+    Ir vēl daudz un dažādi CSS selektori. Tos var apskatīt  <a href="https://www.w3schools.com/cssref/css_selectors.asp"> spiežot šeit. </a> <br>
+    Ja ir vēlme patestēt un paskatīties, kuri elementi tiek izvēlēti uz kuru CSS selektoru, tad  <a href="https://www.w3schools.com/cssref/trysel.asp"> spiediet šeit. </a>
+      
             </div>
         </div>
     </div>
