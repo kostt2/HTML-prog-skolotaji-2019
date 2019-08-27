@@ -4,7 +4,7 @@
 <head>
     <title>Start(it)</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="../css/custom.css" media="screen" title="no title" charset="utf-8">
     <link rel="icon" href="../images/Start(IT)SmallLogo.png">
 
@@ -22,25 +22,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="../images/Start(IT)Logo.png" alt="Start(IT)"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../images/Start(IT)Logo.png" alt="Start(IT)"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Sākums<span class="sr-only">(current)</span></a></li>
-                    <li class="dropdown">
+                    <li><a href="../index.html">Sākums<span class="sr-only">(current)</span></a></li>
+                    <li class="dropdown active">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pirmā diena
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">GIT</a></li>
-                            <li><a href="#">VSCode</a></li>
-                            <li><a href="#">Agile/Scrum</a></li>
-                            <li><a href="HtmlTags.html">HTML tags</a></li>
-                            <li><a href="#">CSS Selektori</a></li>
+                            <li><a href="../views/Git.html">GIT</a></li>
+                            <li><a href="../views/VSCode.html">VSCode</a></li>
+                            <li><a href="../views/AgileScrum.html">Agile/Scrum</a></li>
+                            <li class="active"><a href="HtmlTags.html">HTML tags</a></li>
+                            <li><a href="../views/CssSelektori.html">CSS Selektori</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Plain JavaScript</a></li>
-                    <li><a href="#">JavaScript + DOM</a></li>
-                    <li><a href="#">Mācību Metodoloģija</a></li>
+                    <li><a href="../views/PlainJavaScript.html">Plain JavaScript</a></li>
+                    <li><a href="../views/JavaScriptDom.html">JavaScript + DOM</a></li>
+                    <li><a href="../views/MacibuMetodologija.html">Mācību Metodoloģija</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -49,18 +49,38 @@
 
     <div id="wrap">
         <div id="main">
-            <div class="container theme-showcase lead text-center" role="main">
-                <h1 class="cover-heading text-center">Sāksim mācīties par mājaslapu programmēšanu.</h1>
-                <p>Šis apmācību kurss ir domāts, lai parādītu mūsdienīgas pieejas lietojumprogrammu izveidē.</p>
-                <p>Mērķis ir izveidot mājas lapu, kas attēlo informāciju par to, ko esam apguvuši.</p>
-                <p>Tiks apskatītas tādas tēmas, kā:</p>
-                <p>GIT</p>
-                <p>VSCode</p>
-                <p>Agile/Scrum</p>
-                <p>HTML tags</p>
-                <p>CSS Selektori</p>
-                <p>Plain JavaScript</p>
-                <p>JavaScript + DOM</p>
+            <div class="container theme-showcase lead text" role="main">
+                <h1 class="cover-heading text-center">HTML elementi</h1>
+<p>
+    Šodien mēs iemācījāmies kas ir HTML elementi un kā ar tiem darboties.<br>
+    Mēs jau esam paspējuši apskatīt tādus HTML elementus, kā: <br>
+    <ul>
+        <li>Konteiners "< div >" </li>
+        <li>Virsraksts "< h1 >, < h2 >,< h6 >"</li>
+        <li>Rindkopa "< p >"</li>
+        <li>Atribūts "< a >"</li>
+        <li>Rindas atdalītājs "< br >"</li>
+    </ul>
+    Tagad apkskatīsim vēl šos elementus:
+    <ol>
+        <li>Nenumurēts saraksts "< ul >"</li>
+        <li>Saraksta objekts "< li >"</li>
+        <li>Numurēts saraksts "< ol >"</li>
+        <li>Attēls "< img >"</li>
+        <img src="../images/Start(IT)Logo.png" alt="Start(IT)" width="104">
+        <li>Poga "< button >"</li>
+        <button>Uzspied</button>
+        <li><b> Teknraksts </b>"< b >"</li>
+    </ol>
+        Vairāk informācijas par visiem HTML elementiem mēs varam atrast 
+        <a href="https://www.w3schools.com/html/default.asp"> w3schools </a> mājaslapā.
+    </p>
+       <p>
+            Sed mauris odio, sodales at lacus et, consequat efficitur enim. In volutpat molestie sem at faucibus. Fusce elementum eros vel magna consectetur, non interdum nunc auctor. Cras in lacus non metus molestie rhoncus a nec felis. Praesent ornare magna ac porttitor tempor. Aenean sed feugiat nulla, non euismod ante. Maecenas quis sagittis enim, in auctor nisl. Etiam et efficitur eros.
+</p><p>
+            Donec lorem massa, accumsan in diam vel, facilisis rhoncus est. Cras imperdiet euismod nisl, vel maximus eros tristique ut. Fusce sapien mauris, viverra eu elit a, ullamcorper blandit libero. Donec eget est eu leo congue sollicitudin. Praesent a mollis enim. Pellentesque sit amet metus ut est hendrerit molestie. Praesent in cursus nisi, eget dapibus urna. Mauris cursus orci eu quam imperdiet mollis. Proin vitae ultricies eros. Proin sit amet purus erat. Donec feugiat ligula id sem ullamcorper, sagittis aliquet nulla convallis. Vivamus nec lobortis orci, a hendrerit mauris.
+       </p> 
+    
             </div>
         </div>
     </div>
