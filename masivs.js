@@ -8,6 +8,9 @@ function mainitPecIndeksa(i, vertiba) {
   masivs[i] = vertiba;
 }
 
+function print() {
+    console.log(masivs);
+    }
 function dzestPecIndeksa(i) {
   masivs = masivs.splice(i, 1);
 }
